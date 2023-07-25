@@ -1,0 +1,23 @@
+{
+  "name": "wpp-api",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "nodemon",
+    "build": "rimraf ./build && tsc",
+    "start": "npm-run build && node build/index.js"
+  },
+  "author": "Wilmar dos Santos",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.4.4",
+    "nodemon": "^3.0.1",
+    "rimraf": "^5.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "npm-check-updates": "^16.10.16",
+    "venom-bot": "^5.0.13"
+  }
+}
