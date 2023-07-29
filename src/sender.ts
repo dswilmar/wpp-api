@@ -15,8 +15,6 @@ class Sender {
 
         const start = (client: Whatsapp) => {
             this.client = client;
-
-            //this.sendText('5549998100082@c.us', "Olá Mundo! Este é um teste!");
         }
 
         create('wpp-api-sender', qr, status)
